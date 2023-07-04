@@ -10,7 +10,7 @@ Then BLASTing consensus and parsing xml into txt with the top 10 sequences outpu
 Make sure to check information below!
 
 Script runs with the subprocess module for the MAFFT command with the --auto option. 
-Change stringency as you pleased (gap penalty, etc.).
+Change stringency as you please (gap penalty, etc.).
 Make sure you have the MAFFT software installed on your system
 and accessible in the command-line environment for this code to work correctly.
 
