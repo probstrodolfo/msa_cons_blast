@@ -18,8 +18,13 @@ consensus sequence will be BLASTed and xml saved and subsequently parsed into tx
 Make sure to check information below!
 
 . Script runs with the subprocess module for the MAFFT command with the --auto option. 
-. Change stringency as you please (gap penalty, etc.).
+
+. Change stringency as you please (gap penalty, etc.)
+
 . Make sure you have the MAFFT software installed on your system
+
 . and accessible in the command-line environment for this code to work correctly (python version >3.0)
+
 . You need to have Anaconda or Miniconda installed to use Bio
+
 . For current version, you need to replace input fastq every time you run program (I am still working on parallelizing, but issue with unique quality scores for different MSAs impedes that for now).
